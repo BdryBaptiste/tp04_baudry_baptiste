@@ -1,0 +1,8 @@
+<app-recherche-produit (recherche)="produitListe.filtrerProduits($event)"></app-recherche-produit>
+<div>Nbre de produits : {{ nb$ | async }}</div>
+
+<hr />
+
+<app-produit-liste #produitListe></app-produit-liste>
+
+<hr />
